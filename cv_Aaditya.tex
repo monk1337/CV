@@ -1,0 +1,269 @@
+\documentclass[margin,line]{res}
+\usepackage[hidelinks]{hyperref}
+\usepackage{color}
+\usepackage{footmisc}
+\usepackage{amssymb}
+\oddsidemargin -.5in
+\evensidemargin -.5in
+\textwidth=6.0in
+\itemsep=0in
+\parsep=0in
+% if using pdflatex:
+%\setlength{\pdfpagewidth}{\paperwidth}
+%\setlength{\pdfpageheight}{\paperheight} 
+
+\renewcommand{\thefootnote}{\fnsymbol{footnote}}
+
+\newenvironment{list1}{
+  \begin{list}{\ding{113}}{%
+      \setlength{\itemsep}{0in}
+      \setlength{\parsep}{0in} \setlength{\parskip}{0in}
+      \setlength{\topsep}{0in} \setlength{\partopsep}{0in} 
+      \setlength{\leftmargin}{0.17in}}}{\end{list}}
+\newenvironment{list2}{
+  \begin{list}{$\bullet$}{%
+      \setlength{\itemsep}{0in}
+      \setlength{\parsep}{0in} \setlength{\parskip}{0in}
+      \setlength{\topsep}{0in} \setlength{\partopsep}{0in} 
+      \setlength{\leftmargin}{0.2in}}}{\end{list}}
+
+
+\begin{document}
+
+\name{Ankit Kumar Pal (Aaditya)\vspace*{.1in}}
+
+\begin{resume}
+\section{\sc Contact Information}
+\vspace{.05in}
+\begin{tabular}{@{}p{3in}p{4in}}
+\href{https://aadityaura.github.io}{\bf aadityaura.github.io} & {\it E-mail:}  \href{mailto:aadityaura@gmail.com }{aadityaura@gmail.com } \\
+ & {\it Links:} \href{https://scholar.google.com/citations?user=MXqo0_UAAAAJ&hl=en}{\color{blue}{ Google Scholar}, \href{https://github.com/monk1337/} {Github}, \href{https://www.linkedin.com/in/aadityaura/}{LinkedIn}}\\
+\end{tabular}
+
+
+\section{\sc Research Interests}
+Representation Learning on Graphs, Generative Large Language Models (LLMs), and their applications in Healthcare data, Federated learning, ASR \& Audio Analysis
+
+\section{\sc Education}
+{\bf Babu Banarasi Das University,}, Lucknow, India \hfill {\bf {May 2017}}\\
+%\vspace*{-.3cm}
+{\em Bachelor of Technology, Computer Science Engineering }
+\vspace*{.3cm}
+\begin{list2}
+\item {\bf Thesis}: Generative Modeling of Music Sequences with LSTM-based RNN Architecture
+
+\end{list2}
+{\bf Anandi Devi S.V.M, Sitapur, India} (ADSVM), Sitapur, India \hfill {\bf {April 2013}}\\
+%\vspace*{-.3cm}
+{\em 12th - Board of High School and Intermediate Education U.P }
+\vspace*{.3cm}
+\begin{list2}
+\item {\bf Major}: Physics, Chemistry and Mathematics
+\end{list2}
+
+\section{\sc Experience}
+{\bf Saama Technologies} \hfill {\bf May 2018 - Present}\\
+%\vspace{-.3cm}
+{\em Senior ML Research Engineer}\hfill{}
+\vspace{.2cm}\\
+{\textbf{Objective:} {\em Develop Deep Learning/NLP methods and pipelines for clinical data, Lead research projects, and published findings in top ML conferences}
+\vspace{.3cm}
+\begin{list2}
+	\item \textbf{Adverse Event Prediction}: {\em FDA Adverse Event Reporting System (FAERS)} Developed an RNN-LSTM model with Context-Aware Attention to extract pharmacological semantics from clinical notes, achieving 98\% F1 score. Optimized character and word embeddings to enrich contextual representation. Enabled automated adverse event detection across 1M records.
+        \vspace{.2cm}
+        \item \textbf{Trial Plan Optimizer (TPO):} Designed an ML model using Genentech's clinical trial data to predict site enrollment. Implemented a Python \& Scala AutoML framework with TransmogrifAI. Utilized Categorical Embeddings and tree-based algorithms like XGBoost, LightGBM, and Random Forest to optimize predictions.
+        \vspace{.2cm}
+        \item \textbf{Unsupervised Medical Monitoring:}
+        Conducted analysis of clinical trial data across SDTM domains to identify patient outliers. Leveraged historical patient data and unsupervised models like Autoencoders, Clustering(e.g. K-Means, DBSCAN), Isolation Forest, and One-Class SVM to optimize outlier detection.
+
+        \vspace{.2cm}
+        \item \textbf{DeepMap ML Framework (SDTM Automap):} Developed an ML system to automatically generate CDISC SDTM mappings, incorporating Generative Adversarial Networks, Bidirectional LSTM with PubMed and BERT embeddings, and a 3-layer ELMo architecture for multi-task learning across clinical domains, achieving an average accuracy of 95\% in mapping source raw data to SDTM standards.
+        \vspace{.2cm}
+        \item \textbf{Pharma Graph:} {\em Predictive Modeling of Drug Interactions using Graph Convolutional Networks }
+        Built a NER model to extract pharmacological relationships from clinical text. Developed a Graph Convolutional Neural Network with attention mechanisms to model drugs as nodes and their interactions as edges, characterizing consequential effects caused by drug pair interactions.
+        \vspace{.2cm}
+        \item \textbf{Large Language Models for Healthcare Domain}
+        Extracted clinical insights from raw medical documents and PDFs using Retrieval-Augmented Generation, fine-tuned open-source LLMs (e.g., Llama-2, Falcon) using custom instruct-datasets for internal use cases, Developed a Python library for prompt versioning and structured outputs, Generating protocol documents from minimal inputs, and Conducting Research to mitigate LLM hallucinations in the medical domain.
+\end{list2}
+
+{\bf Prescience Decision Solutions, Bengaluru, India} \hfill {\bf Feb 2018 - May 2018}\\
+%\vspace{-.4cm}
+{\em Deep Learning Engineer}\hfill{}
+\vspace{.2cm}\\
+{\textbf{Objective:} {\em Building a Multidimensional Deep Learning Model to Predict the Bitcoin Price}
+\vspace{.3cm}
+\begin{list2}
+
+\item Worked on transfer learning, attention methods, and custom POS-Tag embeddings.
+\item Created an unofficial Twitter API to get Bitcoin tweets and used it to do LSTM sentiment analysis.
+\item Added the sentiment analysis as a feature layer in the main model to improve understanding of the data.
+\item Deployed the code \& APIs and built a Chat UI on top of it to interact with the model.
+\end{list2}
+
+{\bf Fliptango Global Solutions, Kerala, India}\hfill {\bf Dec 2017 – Feb 2018}\\
+%\vspace{-.3cm}
+{\em Machine Learning Intern}\hfill{}
+\vspace{.2cm}\\
+{\textbf{Objective:} {\em Design and implement an ML-driven e-commerce chatbot to optimize user interactions and enhance product recommendations}
+\vspace{.3cm}
+\begin{list2}
+\item Used TensorFlow to leverage transfer learning and optimize models for specific tasks.
+\item Added new Commonsense Embeddings from ConceptNet Numberbatch to improve understanding of language.
+\item Followed BiLSTM-CNN-CRF paper closely to build a named entity recognition model in TensorFlow.
+Achieved 95\% accuracy in the NER model, which was great for pulling out the key entities from user chats.
+\end{list2}
+
+\section{\sc Selected Publications}
+\textbf{Ankit Pal}, Muru Selvakumar, Malaikannan Sankarasubbu. Multi-label Text Classification using Attention-based Graph Neural Network. In Proc. {\it \textbf{ICAART, '20}.} \href{https://arxiv.org/pdf/2003.11644.pdf}{\color{blue}[Link]}
+
+\textbf{Ankit Pal}, Malaikannan Sankarasubbu. Pay attention to the cough: Early diagnosis of COVID-19 using interpretable symptoms embeddings with cough sound signal processing. In {\it \textbf{ACM '21}.} \href{https://dl.acm.org/doi/10.1145/3412841.3441943}{\color{blue}[Link]}
+
+\textbf{Ankit Pal.} CLIFT: Analysing Natural Distribution Shift on Question Answering Models in Clinical Domain. Poster in {\it \textbf{NeurIPS, '22}.} \href{https://nips.cc/virtual/2022/58229}{\color{blue}[Link]}
+
+\textbf{Ankit Pal}, Logesh Kumar Umapathi and Malaikannan Sankarasubbu.  MedMCQA: A Large-scale Multi-Subject Multi-Choice Dataset for Medical domain Question Answering. In Proc. {\it\textbf{PMLR '22.} } \href{https://proceedings.mlr.press/v174/pal22a/pal22a.pdf}{\color{blue}[Link]}
+
+Madhura Josh\textsuperscript{*}, \textbf{Ankit Pal\textsuperscript{*}}, and Malaikannan Sankarasubbu.  Federated learning for healthcare domain - pipeline, applications and challenges. In {\it \textbf{ACM '22.} } \href{https://dl.acm.org/doi/10.1145/3533708}{\color{blue}[Link]}.
+\footnotetext{*equal contribution}
+
+\textbf{Ankit Pal.}  DeepParliament: A Legal domain Benchmark \& Dataset for Parliament Bills Prediction. In Proc. {\it \textbf{EMNLP '22.} } \href{https://aclanthology.org/2022.umios-1.8.pdf}{\color{blue}[Link]}
+
+\textbf{Ankit Pal}, Logesh Kumar Umapathi and Malaikannan Sankarasubbu.  Med-HALT: Medical Domain Hallucination Test for Large Language Models. In Proc. {\it \textbf{EMNLP Conll '23.}} \href{https://arxiv.org/pdf/2307.15343.pdf}{\color{blue}[Link]}
+
+\section{\sc Service} Reviewed Papers for Springer Nature 2021, IEEE Access 2021, IEEE Access 2022
+
+
+\section{\sc Technical Skills} 
+\begin{list2}
+
+\item {\bf Programming:} Python, C language, Scala, Rust
+\item {\bf Mobile and Web Technologies:} HTML, CSS, JavaScript
+\item {\bf Cloud platforms:} Amazon web services, Google Cloud Platform, and Microsoft Azure
+\item {\bf Tools:} Jax, Tensorflow, PyTorch, Keras, Scipy, Pandas, Numpy, LaTeX
+\end{list2}}
+
+\section{\sc Teaching Experience} 
+\begin{list2}
+
+\item {\bf Shala by IIT Bombay:} DL PI-2\\
+Graph Convolutional Networks for NLP \& Knowledge graphs
+\end{list2}
+
+
+\section{\sc ML Projects}
+{\textbf{Covid-19 Question-Answering Bot} [2020] {\em }
+\vspace{.3cm}
+\begin{list2}
+
+\item Extracted keywords and retrieved relevant passages using vector search.
+\item Ranked top 5 passages for relevance, selecting the top one.
+\item Summarized chosen passage using the BART model
+\item Developed APIs and deployed the solution through a Telegram bot.
+\end{list2}}
+
+{\textbf{Image \& Product Similarity in E-commerce} [2018] {\em }
+\vspace{.3cm}
+\begin{list2}
+
+\item Transformed product pages into graphs for structural comparison.
+\item Applied graph isomorphism techniques to identify product similarities.
+\item Leveraged image vectors to ascertain visual similarity between products.
+\item Enhanced product recommendation accuracy through combined structural and visual analysis.
+\end{list2}}
+
+{\textbf{Music Generation with LSTM \& Double Stacked GRU} [2017] {\em }
+\vspace{.3cm}
+\begin{list2}
+
+\item Transformed MIDI files into encoded matrices for processing.
+\item Trained both single-layer and double-stacked layer models using LSTM and GRU for music generation.
+\end{list2}}
+
+{\textbf{Voice-Controlled Robotic Arm} [2016] {\em }
+\vspace{.3cm}
+\begin{list2}
+
+\item Constructed a robotic arm with servos, operated by Raspberry Pi on Puppy Linux.
+\item Integrated a text-to-speech module to translate vocal commands into actionable tasks.
+\item Enabled the robot to execute diverse actions, like grasping a cup and lifting a ball.
+\item Secured the second prize in a college technical exhibition for innovation.
+\end{list2}}
+
+\section{\sc Talks}
+{\textbf {MLOps: The Keystone of Sustainable AI}, Coimbatore, India \hfill {Jan, 2023}}\\
+%\vspace*{-.3cm}
+{\em Gradient Optimizers Meetup }
+\vspace*{.3cm}\\
+{\textbf {Federated Learning \& Distributional Shift in Healthcare}, Chennai, India \hfill {Dec, 2022}}\\
+%\vspace*{-.3cm}
+{\em Gradient Optimizers Meetup }
+\vspace*{.3cm}\\
+{\textbf {AI in Law: A New Legal Era}, Kangra, India \hfill  {Oct, 2021}}\\
+%\vspace*{-.3cm}
+{\em District Court Kangra }
+\vspace*{.3cm}\\
+{\textbf {Reasoning in LLMs Through Math Word Problems}, Chennai, India \hfill {Oct, 2020}}\\
+%\vspace*{-.3cm}
+{\em ML Researchers Meetup }
+\vspace*{.3cm}\\
+{\textbf {Graphs Neural Networks for NLP}, IITB, India \hfill  Jul, 2020\\
+%\vspace*{-.3cm}
+{\em Indian Institute of Technology Bombay, Shala }}
+\vspace*{.3cm}\\
+
+
+\section{\sc Featured Open-Source Projects}
+{\textbf{Promptify}} \hfill {\bf{Jan, 2023}}\\
+{\em Python and JavaScript} \hfill {\href{https://github.com/promptslab/Promptify/}{\color{blue}{\textbf{[Github]}}}}\\
+%\vspace*{-.3cm}
+\begin{list2}
+\item A module for prompt engineering and versioning, Enabling users to efficiently utilize the GPT and similar prompt-based models \\ to get structured output for various NLP tasks, including NER, QA, Classification, etc 
+\item Github Trending repository
+\end{list2}}
+\vspace*{.9cm}
+
+{\textbf{Research Papers Search (Resp)}} \hfill {\bf{Jul 15, 2022}}\\
+{\em Python} \hfill {\href{https://github.com/monk1337/resp}{\color{blue}{\textbf{[Github]}}}}\\
+
+%\vspace*{-.3cm}
+\begin{list2}
+\item A module to Retrieves paper citations from Google Scholar
+\item Fetches relevant papers by keywords across sources like ACL, ACM, PMLR, etc.
+\end{list2}
+
+{\textbf{Mix Data types clustering (Mixclu)} \hfill {\bf{Jan 29, 2022}}\\
+{\em Python} \hfill {\href{https://github.com/monk1337/Mixclu/tree/main}{\color{blue}{\textbf{[Github]}}}}\\
+
+\begin{list2}
+\item Mixclu is an open-source Python package for doing unsupervised mix data types clustering.
+\item Includes a variety of combination methods including kmeans-onehot, gower distance, umap, etc.
+\end{list2}
+
+{\textbf{Cough Signal Processing (CSP)} \hfill {\bf{June, 2020}}}}\\
+{\em Python} \hfill {\href{https://github.com/coughresearch/Cough-signal-processing}{\color{blue}{\textbf{[Github]}}}}\\
+
+%\vspace*{-.3cm}
+\begin{list2}
+\item Extracts cough features including spectrograms, contiguous segments, and cough events, etc.
+\item Implements various ML and DL algorithms for respiratory audio analysis tasks including automated cough classification, clustering, anomaly detection, etc.
+\end{list2}}
+
+{\textbf{Unsupervised Toolbox Library (Unbox)} \hfill {\bf{Mar 18, 2020}}}\\
+{\em Python} \hfill {\href{https://github.com/monk1337/Unbox/tree/master}{\color{blue}{\textbf{[Github]}}}}\\
+
+\begin{list2}
+\item Implements unsupervised NLG methods, focusing on context-aware semantics embeddings.
+\item Workflow includes question generation/answering, deep clustering, and latent representations etc
+\end{list2}
+
+{\textbf{Multi-label classification Package (MultiLab)} \hfill {\bf {Nov 26, 2019}}}\\
+{\em Python} \hfill {\href{https://github.com/monk1337/MultiLab}{\color{blue}{\textbf{[Github]}}}}\\
+
+%\vspace*{-.3cm}
+\begin{list2}
+
+\item Implements classical and state-of-the-art models for multi-label classification
+\item Provides dataset preprocessing, loading, and evaluation metrics
+\end{list2}
+
+\end{resume}
+\end{document}
